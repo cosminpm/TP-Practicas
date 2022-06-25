@@ -1,0 +1,123 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.8"/>
+<title>Escape_Invaders: Fichero Fuente Bullet.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Escape_Invaders
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.8 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="annotated.html"><span>Estructuras&#160;de&#160;Datos</span></a></li>
+      <li class="current"><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Lista&#160;de&#160;archivos</span></a></li>
+      <li><a href="globals.html"><span>Globales</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Estructuras de Datos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>&apos;typedefs&apos;</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">Bullet.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_bullet_8h.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef __Bullet_H__</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define __Bullet_H__</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_pantalla_8h.html">Pantalla.h</a>&quot;</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="_bullet_8h.html#a9702a407087cdaea6d445a2d1a79ed35">   12</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code" href="struct_bullet_rep.html">BulletRep</a> * <a class="code" href="_bullet_8h.html#a9702a407087cdaea6d445a2d1a79ed35">Bullet</a>;</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;Bullet <a class="code" href="_bullet_8h.html#ae582b71b1b5f58564966d39f3a869b7e">BulletCrea</a> (<a class="code" href="struct_imagen_rep.html">Imagen</a> i, <span class="keywordtype">int</span> x, <span class="keywordtype">int</span> y, <span class="keywordtype">int</span> w, <span class="keywordtype">int</span> h, <span class="keywordtype">int</span> vx, <span class="keywordtype">int</span> vy, <span class="keywordtype">double</span> angulo);</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="keywordtype">void</span> <a class="code" href="_bullet_8h.html#aa1e1a8bacc45ea2a04b8f5dd3d5be6a6">Bullet_Libera</a>(Bullet b);</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="keywordtype">int</span> <a class="code" href="_bullet_8h.html#a471b43a6d9526735e0ea1e80762c8653">Bullet_Mueve</a>(Bullet b);</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="keywordtype">void</span> <a class="code" href="_bullet_8h.html#a75b08195186fb07fece690a71497c813">Bullet_Dibuja</a>(Bullet b);</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="keywordtype">int</span> <a class="code" href="_bullet_8h.html#ad74725e2e3a19c7064cbec6c1637ad9c">Bullet_GetX</a>(Bullet b);</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="keywordtype">int</span> <a class="code" href="_bullet_8h.html#ab3eb79112aec0c9bb954452695c1a45e">Bullet_GetY</a>(Bullet b);</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;<span class="keywordtype">int</span> <a class="code" href="_bullet_8h.html#add5c485c691e073ba6521011b0533d6c">Bullet_GetH</a>(Bullet b);</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;<span class="keywordtype">int</span> <a class="code" href="_bullet_8h.html#a7474f423a7ae694e6a2cbc8975a44f3f">Bullet_GetW</a>(Bullet b);</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;<span class="preprocessor">#endif //__Bullet_H__</span></div>
+<div class="ttc" id="struct_bullet_rep_html"><div class="ttname"><a href="struct_bullet_rep.html">BulletRep</a></div><div class="ttdef"><b>Definition:</b> Bullet.c:7</div></div>
+<div class="ttc" id="_bullet_8h_html_ab3eb79112aec0c9bb954452695c1a45e"><div class="ttname"><a href="_bullet_8h.html#ab3eb79112aec0c9bb954452695c1a45e">Bullet_GetY</a></div><div class="ttdeci">int Bullet_GetY(Bullet b)</div><div class="ttdoc">Método get que la posición Y (posicion vertical) de la bala. </div><div class="ttdef"><b>Definition:</b> Bullet.c:49</div></div>
+<div class="ttc" id="_pantalla_8h_html"><div class="ttname"><a href="_pantalla_8h.html">Pantalla.h</a></div><div class="ttdoc">Fichero de cabecera para poder usar las funciones del wrapper Pantalla. </div></div>
+<div class="ttc" id="struct_imagen_rep_html"><div class="ttname"><a href="struct_imagen_rep.html">ImagenRep</a></div><div class="ttdef"><b>Definition:</b> Pantalla.c:11</div></div>
+<div class="ttc" id="_bullet_8h_html_a9702a407087cdaea6d445a2d1a79ed35"><div class="ttname"><a href="_bullet_8h.html#a9702a407087cdaea6d445a2d1a79ed35">Bullet</a></div><div class="ttdeci">struct BulletRep * Bullet</div><div class="ttdoc">TDA Bullet. </div><div class="ttdef"><b>Definition:</b> Bullet.h:12</div></div>
+<div class="ttc" id="_bullet_8h_html_ae582b71b1b5f58564966d39f3a869b7e"><div class="ttname"><a href="_bullet_8h.html#ae582b71b1b5f58564966d39f3a869b7e">BulletCrea</a></div><div class="ttdeci">Bullet BulletCrea(Imagen i, int x, int y, int w, int h, int vx, int vy, double angulo)</div><div class="ttdoc">Inicializa la bala, que vamos a usar para disparar a los enemigos. </div><div class="ttdef"><b>Definition:</b> Bullet.c:14</div></div>
+<div class="ttc" id="_bullet_8h_html_a7474f423a7ae694e6a2cbc8975a44f3f"><div class="ttname"><a href="_bullet_8h.html#a7474f423a7ae694e6a2cbc8975a44f3f">Bullet_GetW</a></div><div class="ttdeci">int Bullet_GetW(Bullet b)</div><div class="ttdoc">Método get que la posición W (anchura de la bala) </div><div class="ttdef"><b>Definition:</b> Bullet.c:53</div></div>
+<div class="ttc" id="_bullet_8h_html_a471b43a6d9526735e0ea1e80762c8653"><div class="ttname"><a href="_bullet_8h.html#a471b43a6d9526735e0ea1e80762c8653">Bullet_Mueve</a></div><div class="ttdeci">int Bullet_Mueve(Bullet b)</div><div class="ttdoc">Mueve la bala. </div><div class="ttdef"><b>Definition:</b> Bullet.c:39</div></div>
+<div class="ttc" id="_bullet_8h_html_aa1e1a8bacc45ea2a04b8f5dd3d5be6a6"><div class="ttname"><a href="_bullet_8h.html#aa1e1a8bacc45ea2a04b8f5dd3d5be6a6">Bullet_Libera</a></div><div class="ttdeci">void Bullet_Libera(Bullet b)</div><div class="ttdoc">Libera la bala. </div><div class="ttdef"><b>Definition:</b> Bullet.c:33</div></div>
+<div class="ttc" id="_bullet_8h_html_add5c485c691e073ba6521011b0533d6c"><div class="ttname"><a href="_bullet_8h.html#add5c485c691e073ba6521011b0533d6c">Bullet_GetH</a></div><div class="ttdeci">int Bullet_GetH(Bullet b)</div><div class="ttdoc">Método get que la posición H (altura de bala) </div><div class="ttdef"><b>Definition:</b> Bullet.c:57</div></div>
+<div class="ttc" id="_bullet_8h_html_ad74725e2e3a19c7064cbec6c1637ad9c"><div class="ttname"><a href="_bullet_8h.html#ad74725e2e3a19c7064cbec6c1637ad9c">Bullet_GetX</a></div><div class="ttdeci">int Bullet_GetX(Bullet b)</div><div class="ttdoc">Método get que la posición X (posicion horizontal) de la bala. </div><div class="ttdef"><b>Definition:</b> Bullet.c:45</div></div>
+<div class="ttc" id="_bullet_8h_html_a75b08195186fb07fece690a71497c813"><div class="ttname"><a href="_bullet_8h.html#a75b08195186fb07fece690a71497c813">Bullet_Dibuja</a></div><div class="ttdeci">void Bullet_Dibuja(Bullet b)</div><div class="ttdoc">Métdodo que dibuja la bala en la pantalla. </div><div class="ttdef"><b>Definition:</b> Bullet.c:28</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado el Domingo, 12 de Mayo de 2019 18:15:04 para Escape_Invaders por &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.8
+</small></address>
+</body>
+</html>

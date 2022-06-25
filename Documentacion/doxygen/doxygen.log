@@ -1,0 +1,26 @@
+C:/Users/cosmi/Desktop/TPPracticas/Pantalla.h:7: warning: found more than one \mainpage comment block! Skipping this block.
+C:/Users/cosmi/Desktop/TPPracticas/Bullet.h:40: warning: argument 'Recibe' of command @param is not found in the argument list of Bullet_Dibuja(Bullet b)
+C:/Users/cosmi/Desktop/TPPracticas/Bullet.h:40: warning: The following parameters of Bullet_Dibuja(Bullet b) are not documented:
+  parameter 'b'
+C:/Users/cosmi/Desktop/TPPracticas/Bullet.h:60: warning: argument 'Recíbe' of command @param is not found in the argument list of Bullet_GetH(Bullet b)
+C:/Users/cosmi/Desktop/TPPracticas/Bullet.h:60: warning: The following parameters of Bullet_GetH(Bullet b) are not documented:
+  parameter 'b'
+C:/Users/cosmi/Desktop/TPPracticas/Bullet.h:66: warning: argument 'Recíbe' of command @param is not found in the argument list of Bullet_GetW(Bullet b)
+C:/Users/cosmi/Desktop/TPPracticas/Bullet.h:66: warning: The following parameters of Bullet_GetW(Bullet b) are not documented:
+  parameter 'b'
+C:/Users/cosmi/Desktop/TPPracticas/Bullet.h:46: warning: argument 'Recíbe' of command @param is not found in the argument list of Bullet_GetX(Bullet b)
+C:/Users/cosmi/Desktop/TPPracticas/Bullet.h:46: warning: The following parameters of Bullet_GetX(Bullet b) are not documented:
+  parameter 'b'
+C:/Users/cosmi/Desktop/TPPracticas/Bullet.h:53: warning: argument 'Recíbe' of command @param is not found in the argument list of Bullet_GetY(Bullet b)
+C:/Users/cosmi/Desktop/TPPracticas/Bullet.h:53: warning: The following parameters of Bullet_GetY(Bullet b) are not documented:
+  parameter 'b'
+C:/Users/cosmi/Desktop/TPPracticas/Ejercito.h:38: warning: argument 'Recibe' of command @param is not found in the argument list of EjercitoDibuja(Ejercito e)
+C:/Users/cosmi/Desktop/TPPracticas/Ejercito.h:38: warning: The following parameters of EjercitoDibuja(Ejercito e) are not documented:
+  parameter 'e'
+C:/Users/cosmi/Desktop/TPPracticas/Enemigo.h:56: warning: argument 'v' of command @param is not found in the argument list of EnemigoSetV(Enemigo e, int velocidad)
+C:/Users/cosmi/Desktop/TPPracticas/Enemigo.h:56: warning: The following parameters of EnemigoSetV(Enemigo e, int velocidad) are not documented:
+  parameter 'velocidad'
+C:/Users/cosmi/Desktop/TPPracticas/Galaxia.h:50: warning: The following parameters of GalaxiaColision(Galaxia g, int x, int y, int w, int h) are not documented:
+  parameter 'g'
+C:/Users/cosmi/Desktop/TPPracticas/Personaje.h:54: warning: The following parameters of PersonajeSetV(Personaje p, int velocidad) are not documented:
+  parameter 'p'

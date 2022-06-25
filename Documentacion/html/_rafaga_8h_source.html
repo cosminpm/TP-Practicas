@@ -1,0 +1,121 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.8"/>
+<title>Escape_Invaders: Fichero Fuente Rafaga.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Escape_Invaders
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.8 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="annotated.html"><span>Estructuras&#160;de&#160;Datos</span></a></li>
+      <li class="current"><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Lista&#160;de&#160;archivos</span></a></li>
+      <li><a href="globals.html"><span>Globales</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Estructuras de Datos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>&apos;typedefs&apos;</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">Rafaga.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_rafaga_8h.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef __Rafaga_H__</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define __Rafaga_H__</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_pantalla_8h.html">Pantalla.h</a>&quot;</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_ejercito_8h.html">Ejercito.h</a>&quot;</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="_rafaga_8h.html#a1e515ba8a0aaf452456a5215b9d826cd">   13</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code" href="struct_rafaga_rep.html">RafagaRep</a> * <a class="code" href="_rafaga_8h.html#a1e515ba8a0aaf452456a5215b9d826cd">Rafaga</a>;</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;Rafaga <a class="code" href="_rafaga_8h.html#a5126929f18c6eb2420aebb1061c0db30">RafagaCrea</a>();</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="keywordtype">void</span> <a class="code" href="_rafaga_8h.html#a89a6a914dceca3b924e561610576b13e">RafagaLibera</a> (Rafaga r);</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="keywordtype">void</span> <a class="code" href="_rafaga_8h.html#a0b1269356ffdcc87e2edf0e0909fe49f">RafagaInserta</a>(Rafaga r,<a class="code" href="struct_imagen_rep.html">Imagen</a> i, <span class="keywordtype">int</span> x, <span class="keywordtype">int</span> y, <span class="keywordtype">int</span> w, <span class="keywordtype">int</span> h, <span class="keywordtype">int</span> vx, <span class="keywordtype">int</span> vy, <span class="keywordtype">double</span> angulo);</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="keywordtype">void</span> <a class="code" href="_rafaga_8h.html#ab59b59722a00adbec06d9845d7344e5e">RafagaDibuja</a>(Rafaga r);</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="keywordtype">void</span> <a class="code" href="_rafaga_8h.html#a5f22e70cc55191c39606a88dc72272e2">RafagaMueve</a>(Rafaga r);</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="keywordtype">int</span> <a class="code" href="_rafaga_8h.html#a7529ad5ba9019380169021a68d721480">RafagaColision</a>(Rafaga r, <a class="code" href="struct_ejercito_rep.html">Ejercito</a> e);</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="preprocessor">#endif //__Ráfaga_H__</span></div>
+<div class="ttc" id="struct_ejercito_rep_html"><div class="ttname"><a href="struct_ejercito_rep.html">EjercitoRep</a></div><div class="ttdef"><b>Definition:</b> Ejercito.c:8</div></div>
+<div class="ttc" id="_rafaga_8h_html_a7529ad5ba9019380169021a68d721480"><div class="ttname"><a href="_rafaga_8h.html#a7529ad5ba9019380169021a68d721480">RafagaColision</a></div><div class="ttdeci">int RafagaColision(Rafaga r, Ejercito e)</div><div class="ttdoc">Funcion de colision entre las balas y el ejercito. </div><div class="ttdef"><b>Definition:</b> Rafaga.c:75</div></div>
+<div class="ttc" id="_pantalla_8h_html"><div class="ttname"><a href="_pantalla_8h.html">Pantalla.h</a></div><div class="ttdoc">Fichero de cabecera para poder usar las funciones del wrapper Pantalla. </div></div>
+<div class="ttc" id="struct_imagen_rep_html"><div class="ttname"><a href="struct_imagen_rep.html">ImagenRep</a></div><div class="ttdef"><b>Definition:</b> Pantalla.c:11</div></div>
+<div class="ttc" id="_ejercito_8h_html"><div class="ttname"><a href="_ejercito_8h.html">Ejercito.h</a></div><div class="ttdoc">Consiste en un conjunto de enemigos mediante estructuras enlazadas. </div></div>
+<div class="ttc" id="_rafaga_8h_html_ab59b59722a00adbec06d9845d7344e5e"><div class="ttname"><a href="_rafaga_8h.html#ab59b59722a00adbec06d9845d7344e5e">RafagaDibuja</a></div><div class="ttdeci">void RafagaDibuja(Rafaga r)</div><div class="ttdoc">Dibuja la rafaga. </div><div class="ttdef"><b>Definition:</b> Rafaga.c:46</div></div>
+<div class="ttc" id="_rafaga_8h_html_a1e515ba8a0aaf452456a5215b9d826cd"><div class="ttname"><a href="_rafaga_8h.html#a1e515ba8a0aaf452456a5215b9d826cd">Rafaga</a></div><div class="ttdeci">struct RafagaRep * Rafaga</div><div class="ttdoc">TDA Rafaga. </div><div class="ttdef"><b>Definition:</b> Rafaga.h:13</div></div>
+<div class="ttc" id="_rafaga_8h_html_a89a6a914dceca3b924e561610576b13e"><div class="ttname"><a href="_rafaga_8h.html#a89a6a914dceca3b924e561610576b13e">RafagaLibera</a></div><div class="ttdeci">void RafagaLibera(Rafaga r)</div><div class="ttdoc">Libera la rafaga. </div><div class="ttdef"><b>Definition:</b> Rafaga.c:25</div></div>
+<div class="ttc" id="_rafaga_8h_html_a0b1269356ffdcc87e2edf0e0909fe49f"><div class="ttname"><a href="_rafaga_8h.html#a0b1269356ffdcc87e2edf0e0909fe49f">RafagaInserta</a></div><div class="ttdeci">void RafagaInserta(Rafaga r, Imagen i, int x, int y, int w, int h, int vx, int vy, double angulo)</div><div class="ttdoc">Inserta balas en la rafaga. </div><div class="ttdef"><b>Definition:</b> Rafaga.c:38</div></div>
+<div class="ttc" id="_rafaga_8h_html_a5126929f18c6eb2420aebb1061c0db30"><div class="ttname"><a href="_rafaga_8h.html#a5126929f18c6eb2420aebb1061c0db30">RafagaCrea</a></div><div class="ttdeci">Rafaga RafagaCrea()</div><div class="ttdoc">Crea la Ráfaga. </div><div class="ttdef"><b>Definition:</b> Rafaga.c:18</div></div>
+<div class="ttc" id="_rafaga_8h_html_a5f22e70cc55191c39606a88dc72272e2"><div class="ttname"><a href="_rafaga_8h.html#a5f22e70cc55191c39606a88dc72272e2">RafagaMueve</a></div><div class="ttdeci">void RafagaMueve(Rafaga r)</div><div class="ttdoc">Mueve la rafaga. </div><div class="ttdef"><b>Definition:</b> Rafaga.c:56</div></div>
+<div class="ttc" id="struct_rafaga_rep_html"><div class="ttname"><a href="struct_rafaga_rep.html">RafagaRep</a></div><div class="ttdef"><b>Definition:</b> Rafaga.c:11</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado el Domingo, 12 de Mayo de 2019 18:15:04 para Escape_Invaders por &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.8
+</small></address>
+</body>
+</html>

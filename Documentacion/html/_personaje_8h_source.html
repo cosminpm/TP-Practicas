@@ -1,0 +1,132 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.8"/>
+<title>Escape_Invaders: Fichero Fuente Personaje.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Escape_Invaders
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.8 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="annotated.html"><span>Estructuras&#160;de&#160;Datos</span></a></li>
+      <li class="current"><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Lista&#160;de&#160;archivos</span></a></li>
+      <li><a href="globals.html"><span>Globales</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Estructuras de Datos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>&apos;typedefs&apos;</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">Personaje.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_personaje_8h.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef __Personaje_H__</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define __Personaje_H__</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_pantalla_8h.html">Pantalla.h</a>&quot;</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="_personaje_8h.html#a9d07dc1d96da277fcf14dbfdbabed99e">   12</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code" href="struct_personaje_rep.html">PersonajeRep</a> * <a class="code" href="_personaje_8h.html#a9d07dc1d96da277fcf14dbfdbabed99e">Personaje</a>;</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;Personaje <a class="code" href="_personaje_8h.html#ab4058b874b6117e96c93c6f4569b73b7">PersonajeCrea</a>(<a class="code" href="struct_imagen_rep.html">Imagen</a> i, <span class="keywordtype">int</span> x, <span class="keywordtype">int</span> y, <span class="keywordtype">int</span> w, <span class="keywordtype">int</span> h,<span class="keywordtype">double</span> angulo);</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="keywordtype">void</span> <a class="code" href="_personaje_8h.html#a1f1160a3c1f01eee0a5d7da4d823b683">PersonajeLibera</a>(Personaje p);</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="keywordtype">void</span> <a class="code" href="_personaje_8h.html#a1a7a08ac5d540d694ce7712726c28162">PersonajeMueve</a>(Personaje p,<span class="keywordtype">int</span> vx, <span class="keywordtype">int</span> vy);</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="keywordtype">void</span> <a class="code" href="_personaje_8h.html#adbb27c75a9738095da532d34a9df4906">PersonajeDibuja</a>(Personaje p);</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="keywordtype">void</span> <a class="code" href="_personaje_8h.html#a554816fd6a5ea8e3cd15783568412ae5">PersonajeSetX</a>(Personaje p, <span class="keywordtype">int</span> x);</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="keywordtype">void</span> <a class="code" href="_personaje_8h.html#a0c57cf0f0f586537b5f31d9c479e2927">PersonajeSetY</a>(Personaje p, <span class="keywordtype">int</span> y);</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="keywordtype">void</span> <a class="code" href="_personaje_8h.html#a37f29a93eb140139b63b126637bd9d9c">PersonajeSetV</a>(Personaje p, <span class="keywordtype">int</span> velocidad);</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;<span class="keywordtype">int</span> <a class="code" href="_personaje_8h.html#a903163f3922b84ed129a16582a06e1a4">PersonajeGetX</a>(Personaje p);</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;<span class="keywordtype">int</span> <a class="code" href="_personaje_8h.html#a1aa4df46cee0dec269043ed995669717">PersonajeGetY</a>(Personaje p);</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;<span class="keywordtype">int</span> <a class="code" href="_personaje_8h.html#a1a7b57c2c98ba380e489121ba984ca3e">PersonajeGetW</a>(Personaje p);</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;<span class="keywordtype">int</span> <a class="code" href="_personaje_8h.html#a1510eae6e59130e3134f93c4465ae5e5">PersonajeGetH</a>(Personaje p);</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;<span class="keywordtype">double</span> <a class="code" href="_personaje_8h.html#aaec6dfbc7bac90c28d4e53fa06c4661d">PersonajeGetAngulo</a>(Personaje p);</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;<span class="keywordtype">void</span> <a class="code" href="_personaje_8h.html#a69fc2c74af9cbe09ed7fb27e3b4dcc3a">PersonajeRota</a>(Personaje p,<span class="keywordtype">double</span> angulo);</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;<span class="preprocessor">#endif // __Personaje_H__</span></div>
+<div class="ttc" id="_personaje_8h_html_a1f1160a3c1f01eee0a5d7da4d823b683"><div class="ttname"><a href="_personaje_8h.html#a1f1160a3c1f01eee0a5d7da4d823b683">PersonajeLibera</a></div><div class="ttdeci">void PersonajeLibera(Personaje p)</div><div class="ttdoc">Libera el personaje. </div><div class="ttdef"><b>Definition:</b> Personaje.c:40</div></div>
+<div class="ttc" id="_personaje_8h_html_aaec6dfbc7bac90c28d4e53fa06c4661d"><div class="ttname"><a href="_personaje_8h.html#aaec6dfbc7bac90c28d4e53fa06c4661d">PersonajeGetAngulo</a></div><div class="ttdeci">double PersonajeGetAngulo(Personaje p)</div><div class="ttdoc">Funcion Get que obtiene el angulo del personaje. </div><div class="ttdef"><b>Definition:</b> Personaje.c:82</div></div>
+<div class="ttc" id="_personaje_8h_html_adbb27c75a9738095da532d34a9df4906"><div class="ttname"><a href="_personaje_8h.html#adbb27c75a9738095da532d34a9df4906">PersonajeDibuja</a></div><div class="ttdeci">void PersonajeDibuja(Personaje p)</div><div class="ttdoc">Dibuja el personaje en cuestion. </div><div class="ttdef"><b>Definition:</b> Personaje.c:61</div></div>
+<div class="ttc" id="_personaje_8h_html_a0c57cf0f0f586537b5f31d9c479e2927"><div class="ttname"><a href="_personaje_8h.html#a0c57cf0f0f586537b5f31d9c479e2927">PersonajeSetY</a></div><div class="ttdeci">void PersonajeSetY(Personaje p, int y)</div><div class="ttdoc">Funcion set que modifica la posicion y del personaje. </div><div class="ttdef"><b>Definition:</b> Personaje.c:29</div></div>
+<div class="ttc" id="_personaje_8h_html_a69fc2c74af9cbe09ed7fb27e3b4dcc3a"><div class="ttname"><a href="_personaje_8h.html#a69fc2c74af9cbe09ed7fb27e3b4dcc3a">PersonajeRota</a></div><div class="ttdeci">void PersonajeRota(Personaje p, double angulo)</div><div class="ttdoc">Funcion hace que el personaje rote según un angulo. </div><div class="ttdef"><b>Definition:</b> Personaje.c:33</div></div>
+<div class="ttc" id="_pantalla_8h_html"><div class="ttname"><a href="_pantalla_8h.html">Pantalla.h</a></div><div class="ttdoc">Fichero de cabecera para poder usar las funciones del wrapper Pantalla. </div></div>
+<div class="ttc" id="_personaje_8h_html_a903163f3922b84ed129a16582a06e1a4"><div class="ttname"><a href="_personaje_8h.html#a903163f3922b84ed129a16582a06e1a4">PersonajeGetX</a></div><div class="ttdeci">int PersonajeGetX(Personaje p)</div><div class="ttdoc">Funcion Get que obtiene la posicion x del personaje. </div><div class="ttdef"><b>Definition:</b> Personaje.c:65</div></div>
+<div class="ttc" id="_personaje_8h_html_a554816fd6a5ea8e3cd15783568412ae5"><div class="ttname"><a href="_personaje_8h.html#a554816fd6a5ea8e3cd15783568412ae5">PersonajeSetX</a></div><div class="ttdeci">void PersonajeSetX(Personaje p, int x)</div><div class="ttdoc">Funcion set que modifica la posicion x del personaje. </div><div class="ttdef"><b>Definition:</b> Personaje.c:25</div></div>
+<div class="ttc" id="struct_imagen_rep_html"><div class="ttname"><a href="struct_imagen_rep.html">ImagenRep</a></div><div class="ttdef"><b>Definition:</b> Pantalla.c:11</div></div>
+<div class="ttc" id="_personaje_8h_html_a1a7b57c2c98ba380e489121ba984ca3e"><div class="ttname"><a href="_personaje_8h.html#a1a7b57c2c98ba380e489121ba984ca3e">PersonajeGetW</a></div><div class="ttdeci">int PersonajeGetW(Personaje p)</div><div class="ttdoc">Funcion Get que obtiene la anchura del personaje. </div><div class="ttdef"><b>Definition:</b> Personaje.c:73</div></div>
+<div class="ttc" id="_personaje_8h_html_a1a7a08ac5d540d694ce7712726c28162"><div class="ttname"><a href="_personaje_8h.html#a1a7a08ac5d540d694ce7712726c28162">PersonajeMueve</a></div><div class="ttdeci">void PersonajeMueve(Personaje p, int vx, int vy)</div><div class="ttdoc">Mueve el personaje en cuestion. </div><div class="ttdef"><b>Definition:</b> Personaje.c:44</div></div>
+<div class="ttc" id="_personaje_8h_html_ab4058b874b6117e96c93c6f4569b73b7"><div class="ttname"><a href="_personaje_8h.html#ab4058b874b6117e96c93c6f4569b73b7">PersonajeCrea</a></div><div class="ttdeci">Personaje PersonajeCrea(Imagen i, int x, int y, int w, int h, double angulo)</div><div class="ttdoc">Crea el personaje que vamos a usar. </div><div class="ttdef"><b>Definition:</b> Personaje.c:13</div></div>
+<div class="ttc" id="_personaje_8h_html_a1510eae6e59130e3134f93c4465ae5e5"><div class="ttname"><a href="_personaje_8h.html#a1510eae6e59130e3134f93c4465ae5e5">PersonajeGetH</a></div><div class="ttdeci">int PersonajeGetH(Personaje p)</div><div class="ttdoc">Funcion Get que obtiene la altura del personaje. </div><div class="ttdef"><b>Definition:</b> Personaje.c:77</div></div>
+<div class="ttc" id="struct_personaje_rep_html"><div class="ttname"><a href="struct_personaje_rep.html">PersonajeRep</a></div><div class="ttdef"><b>Definition:</b> Personaje.c:5</div></div>
+<div class="ttc" id="_personaje_8h_html_a37f29a93eb140139b63b126637bd9d9c"><div class="ttname"><a href="_personaje_8h.html#a37f29a93eb140139b63b126637bd9d9c">PersonajeSetV</a></div><div class="ttdeci">void PersonajeSetV(Personaje p, int velocidad)</div><div class="ttdoc">Funcion set que modifica la velocidad del personaje. </div><div class="ttdef"><b>Definition:</b> Personaje.c:55</div></div>
+<div class="ttc" id="_personaje_8h_html_a9d07dc1d96da277fcf14dbfdbabed99e"><div class="ttname"><a href="_personaje_8h.html#a9d07dc1d96da277fcf14dbfdbabed99e">Personaje</a></div><div class="ttdeci">struct PersonajeRep * Personaje</div><div class="ttdoc">TDA Personaje. </div><div class="ttdef"><b>Definition:</b> Personaje.h:12</div></div>
+<div class="ttc" id="_personaje_8h_html_a1aa4df46cee0dec269043ed995669717"><div class="ttname"><a href="_personaje_8h.html#a1aa4df46cee0dec269043ed995669717">PersonajeGetY</a></div><div class="ttdeci">int PersonajeGetY(Personaje p)</div><div class="ttdoc">Funcion Get que obtiene la posicion y del personaje. </div><div class="ttdef"><b>Definition:</b> Personaje.c:69</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado el Domingo, 12 de Mayo de 2019 18:15:04 para Escape_Invaders por &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.8
+</small></address>
+</body>
+</html>
