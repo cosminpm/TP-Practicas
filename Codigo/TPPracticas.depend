@@ -1,0 +1,307 @@
+# depslib dependency file v1.0
+1554375401 source:c:\users\cosmi\desktop\tppracticas\bullet.c
+	<stdlib.h>
+	<math.h>
+	"Pantalla.h"
+	"Bullet.h"
+
+1553599130 c:\users\cosmi\desktop\tppracticas\pantalla.h
+	"SDL2/SDL.h"
+
+1557681169 c:\users\cosmi\desktop\tppracticas\bullet.h
+	"Pantalla.h"
+
+1552565158 source:c:\users\cosmi\desktop\tppracticas\colision.c
+	<math.h>
+	"Colision.h"
+
+1557223822 c:\users\cosmi\desktop\tppracticas\colision.h
+
+1555363203 source:c:\users\cosmi\desktop\tppracticas\ejercito.c
+	"Ejercito.h"
+	<stdlib.h>
+	"Pantalla.h"
+	"Enemigo.h"
+	"Colision.h"
+
+1557681169 c:\users\cosmi\desktop\tppracticas\ejercito.h
+	"Pantalla.h"
+
+1557681169 c:\users\cosmi\desktop\tppracticas\enemigo.h
+	"Pantalla.h"
+
+1553773260 source:c:\users\cosmi\desktop\tppracticas\enemigo.c
+	<stdlib.h>
+	"Enemigo.h"
+
+1553167129 source:c:\users\cosmi\desktop\tppracticas\estrella.c
+	<stdlib.h>
+	"Estrella.h"
+
+1557681169 c:\users\cosmi\desktop\tppracticas\estrella.h
+	"Pantalla.h"
+	"Estrella.h"
+
+1553169085 source:c:\users\cosmi\desktop\tppracticas\galaxia.c
+	"Galaxia.h"
+	<stdlib.h>
+	"Pantalla.h"
+	"Estrella.h"
+	"Colision.h"
+
+1557681168 c:\users\cosmi\desktop\tppracticas\galaxia.h
+	"Pantalla.h"
+
+1553599172 source:c:\users\cosmi\desktop\tppracticas\pantalla.c
+	"Pantalla.h"
+	<stdlib.h>
+	<signal.h>
+	<stdio.h>
+	<math.h>
+
+1555361172 source:c:\users\cosmi\desktop\tppracticas\personaje.c
+	<stdlib.h>
+	"Personaje.h"
+
+1557681169 c:\users\cosmi\desktop\tppracticas\personaje.h
+	"Pantalla.h"
+
+1554977400 source:c:\users\cosmi\desktop\tppracticas\rafaga.c
+	<stdlib.h>
+	"Pantalla.h"
+	"Rafaga.h"
+	"Colision.h"
+	"Bullet.h"
+	"Ejercito.h"
+
+1557681168 c:\users\cosmi\desktop\tppracticas\rafaga.h
+	"Pantalla.h"
+	"Ejercito.h"
+
+1553596294 source:c:\users\cosmi\desktop\tppracticas\vida.c
+	<stdlib.h>
+	"Vida.h"
+
+1557247702 c:\users\cosmi\desktop\tppracticas\vida.h
+	"Pantalla.h"
+	"Vida.h"
+
+1557681169 source:c:\users\cosmi\desktop\tppracticas\main.c
+	"Pantalla.h"
+	<stdlib.h>
+	<stdio.h>
+	<time.h>
+	"Personaje.h"
+	"Enemigo.h"
+	"Colision.h"
+	"Galaxia.h"
+	"Vida.h"
+	"Ejercito.h"
+	"Rafaga.h"
+	<math.h>
+	<unistd.h>
+
+1554375401 source:c:\users\cosmi\desktop\programas\tppracticas\bullet.c
+	<stdlib.h>
+	<math.h>
+	"Pantalla.h"
+	"Bullet.h"
+
+1553599130 c:\users\cosmi\desktop\programas\tppracticas\pantalla.h
+	"SDL2/SDL.h"
+
+1554374975 c:\users\cosmi\desktop\programas\tppracticas\bullet.h
+	"Pantalla.h"
+
+1552565158 source:c:\users\cosmi\desktop\programas\tppracticas\colision.c
+	<math.h>
+	"Colision.h"
+
+1552563833 c:\users\cosmi\desktop\programas\tppracticas\colision.h
+
+1555363203 source:c:\users\cosmi\desktop\programas\tppracticas\ejercito.c
+	"Ejercito.h"
+	<stdlib.h>
+	"Pantalla.h"
+	"Enemigo.h"
+	"Colision.h"
+
+1553773385 c:\users\cosmi\desktop\programas\tppracticas\ejercito.h
+	"Pantalla.h"
+
+1553773198 c:\users\cosmi\desktop\programas\tppracticas\enemigo.h
+	"Pantalla.h"
+
+1553773260 source:c:\users\cosmi\desktop\programas\tppracticas\enemigo.c
+	<stdlib.h>
+	"Enemigo.h"
+
+1553167129 source:c:\users\cosmi\desktop\programas\tppracticas\estrella.c
+	<stdlib.h>
+	"Estrella.h"
+
+1553165857 c:\users\cosmi\desktop\programas\tppracticas\estrella.h
+	"Pantalla.h"
+	"Estrella.h"
+
+1553169085 source:c:\users\cosmi\desktop\programas\tppracticas\galaxia.c
+	"Galaxia.h"
+	<stdlib.h>
+	"Pantalla.h"
+	"Estrella.h"
+	"Colision.h"
+
+1553183603 c:\users\cosmi\desktop\programas\tppracticas\galaxia.h
+	"Pantalla.h"
+
+1555410668 source:c:\users\cosmi\desktop\programas\tppracticas\main.c
+	"Pantalla.h"
+	<stdlib.h>
+	<stdio.h>
+	<time.h>
+	"Personaje.h"
+	"Enemigo.h"
+	"Colision.h"
+	"Galaxia.h"
+	"Vida.h"
+	"Ejercito.h"
+	"Rafaga.h"
+	<math.h>
+	<unistd.h>
+
+1555361172 c:\users\cosmi\desktop\programas\tppracticas\personaje.h
+	"Pantalla.h"
+
+1553597956 c:\users\cosmi\desktop\programas\tppracticas\vida.h
+	"Pantalla.h"
+	"Vida.h"
+
+1554976828 c:\users\cosmi\desktop\programas\tppracticas\rafaga.h
+	"Pantalla.h"
+	"Ejercito.h"
+
+1553599172 source:c:\users\cosmi\desktop\programas\tppracticas\pantalla.c
+	"Pantalla.h"
+	<stdlib.h>
+	<signal.h>
+	<stdio.h>
+	<math.h>
+
+1555361172 source:c:\users\cosmi\desktop\programas\tppracticas\personaje.c
+	<stdlib.h>
+	"Personaje.h"
+
+1554977400 source:c:\users\cosmi\desktop\programas\tppracticas\rafaga.c
+	<stdlib.h>
+	"Pantalla.h"
+	"Rafaga.h"
+	"Colision.h"
+	"Bullet.h"
+	"Ejercito.h"
+
+1553596294 source:c:\users\cosmi\desktop\programas\tppracticas\vida.c
+	<stdlib.h>
+	"Vida.h"
+
+1554375401 source:c:\users\cosmi\desktop\tppracticas\codigo\bullet.c
+	<stdlib.h>
+	<math.h>
+	"Pantalla.h"
+	"Bullet.h"
+
+1553599130 c:\users\cosmi\desktop\tppracticas\codigo\pantalla.h
+	"SDL2/SDL.h"
+
+1557681169 c:\users\cosmi\desktop\tppracticas\codigo\bullet.h
+	"Pantalla.h"
+
+1552565158 source:c:\users\cosmi\desktop\tppracticas\codigo\colision.c
+	<math.h>
+	"Colision.h"
+
+1557223822 c:\users\cosmi\desktop\tppracticas\codigo\colision.h
+
+1555363203 source:c:\users\cosmi\desktop\tppracticas\codigo\ejercito.c
+	"Ejercito.h"
+	<stdlib.h>
+	"Pantalla.h"
+	"Enemigo.h"
+	"Colision.h"
+
+1557681169 c:\users\cosmi\desktop\tppracticas\codigo\ejercito.h
+	"Pantalla.h"
+
+1557681169 c:\users\cosmi\desktop\tppracticas\codigo\enemigo.h
+	"Pantalla.h"
+
+1553773260 source:c:\users\cosmi\desktop\tppracticas\codigo\enemigo.c
+	<stdlib.h>
+	"Enemigo.h"
+
+1553167129 source:c:\users\cosmi\desktop\tppracticas\codigo\estrella.c
+	<stdlib.h>
+	"Estrella.h"
+
+1557681169 c:\users\cosmi\desktop\tppracticas\codigo\estrella.h
+	"Pantalla.h"
+	"Estrella.h"
+
+1553169085 source:c:\users\cosmi\desktop\tppracticas\codigo\galaxia.c
+	"Galaxia.h"
+	<stdlib.h>
+	"Pantalla.h"
+	"Estrella.h"
+	"Colision.h"
+
+1557681168 c:\users\cosmi\desktop\tppracticas\codigo\galaxia.h
+	"Pantalla.h"
+
+1557681169 source:c:\users\cosmi\desktop\tppracticas\codigo\main.c
+	"Pantalla.h"
+	<stdlib.h>
+	<stdio.h>
+	<time.h>
+	"Personaje.h"
+	"Enemigo.h"
+	"Colision.h"
+	"Galaxia.h"
+	"Vida.h"
+	"Ejercito.h"
+	"Rafaga.h"
+	<math.h>
+	<unistd.h>
+
+1557681169 c:\users\cosmi\desktop\tppracticas\codigo\personaje.h
+	"Pantalla.h"
+
+1557247702 c:\users\cosmi\desktop\tppracticas\codigo\vida.h
+	"Pantalla.h"
+	"Vida.h"
+
+1557681168 c:\users\cosmi\desktop\tppracticas\codigo\rafaga.h
+	"Pantalla.h"
+	"Ejercito.h"
+
+1553599172 source:c:\users\cosmi\desktop\tppracticas\codigo\pantalla.c
+	"Pantalla.h"
+	<stdlib.h>
+	<signal.h>
+	<stdio.h>
+	<math.h>
+
+1555361172 source:c:\users\cosmi\desktop\tppracticas\codigo\personaje.c
+	<stdlib.h>
+	"Personaje.h"
+
+1554977400 source:c:\users\cosmi\desktop\tppracticas\codigo\rafaga.c
+	<stdlib.h>
+	"Pantalla.h"
+	"Rafaga.h"
+	"Colision.h"
+	"Bullet.h"
+	"Ejercito.h"
+
+1553596294 source:c:\users\cosmi\desktop\tppracticas\codigo\vida.c
+	<stdlib.h>
+	"Vida.h"
+
